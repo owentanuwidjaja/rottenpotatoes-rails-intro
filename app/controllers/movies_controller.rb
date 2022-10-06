@@ -11,11 +11,20 @@ class MoviesController < ApplicationController
 
       if params.has_key?(:ratings)
         @ratings_to_show = params[:ratings].keys
+        @ratings_to_show_hash = Hash[@ratings_to_show.collect {|key| [key, '1']}]
       else
         @ratings_to_show = []
       end
 
       @movies = Movie.with_ratings(@ratings_to_show)
+
+      @title_header = ''
+      @release_date = ''
+      if params.has_key?(:sort_by)
+        @movies = @movies.order(params[:sort_by])
+        @title_header = 'hilite bg-warning' if params[:sort_by] == 'title'
+        @release_date_header = 'hilite bg-warning' if params[:sort_by]=='release date'
+      end
     end
   
     def new

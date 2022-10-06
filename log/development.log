@@ -247,3 +247,394 @@ Processing by MoviesController#index as HTML
   Rendered movies/index.html.erb within layouts/application (19.2ms)
   Rendered layouts/_flash.erb (0.6ms)
 Completed 200 OK in 400ms (Views: 391.7ms | ActiveRecord: 6.3ms)
+
+
+Started GET "/" for 2607:f140:6000:d:45fd:82b3:9e82:c33a at 2022-10-06 03:19:53 +0000
+Cannot render console from 2607:f140:6000:d:45fd:82b3:9e82:c33a! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+SyntaxError (/home/codio/workspace/rottenpotatoes-rails-intro/app/controllers/movies_controller.rb:63: syntax error, unexpected end-of-input, expecting end):
+  app/controllers/movies_controller.rb:63: syntax error, unexpected end-of-input, expecting end
+
+
+  Rendered /home/codio/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /home/codio/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /home/codio/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (12.9ms)
+  Rendered /home/codio/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (36.8ms)
+
+
+Started GET "/" for 2607:f140:6000:d:45fd:82b3:9e82:c33a at 2022-10-06 03:20:41 +0000
+Cannot render console from 2607:f140:6000:d:45fd:82b3:9e82:c33a! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  Rendered movies/index.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:23: syntax error, unexpected '<', expecting ')'
+      </th>
+      ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:24: unknown regexp options - th
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:25: syntax error, unexpected '<'
+      <th class="'.freeze;@output_bu...
+      ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:26: syntax error, unexpected tIDENTIFIER, expecting ')'
+...h), :id => 'release_date_header' );@output_buffer.safe_appen...
+...            ^~~~~~~~~~~~~~~~~~~
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:27: syntax error, unexpected '<', expecting ')'
+      </th>
+      ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:28: unknown regexp options - th
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:29: syntax error, unexpected '<'
+    </tr>
+    ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:30: unknown regexp options - thad
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:31: syntax error, unexpected '<'
+  <tbody>
+  ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:34: syntax error, unexpected '<'
+        <td>
+        ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:36: syntax error, unexpected '<', expecting ')'
+        </td>
+        ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:39: unknown regexp options - td
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:40: syntax error, unexpected '<'
+        <td>
+        ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:42: syntax error, unexpected '<', expecting ')'
+        </td>
+        ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:45: unknown regexp options - td
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:46: syntax error, unexpected '<'
+      </tr>
+      ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:48: unknown regexp options - tbdy
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:49: syntax error, unexpected '<'
+</table>
+^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:53: unterminated regexp meets end of file
+          end
+              ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:53: syntax error, unexpected end-of-input, expecting ')'):
+  app/views/movies/index.html.erb:23: syntax error, unexpected '<', expecting ')'
+  app/views/movies/index.html.erb:24: unknown regexp options - th
+  app/views/movies/index.html.erb:25: syntax error, unexpected '<'
+  app/views/movies/index.html.erb:26: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/movies/index.html.erb:27: syntax error, unexpected '<', expecting ')'
+  app/views/movies/index.html.erb:28: unknown regexp options - th
+  app/views/movies/index.html.erb:29: syntax error, unexpected '<'
+  app/views/movies/index.html.erb:30: unknown regexp options - thad
+  app/views/movies/index.html.erb:31: syntax error, unexpected '<'
+  app/views/movies/index.html.erb:34: syntax error, unexpected '<'
+  app/views/movies/index.html.erb:36: syntax error, unexpected '<', expecting ')'
+  app/views/movies/index.html.erb:39: unknown regexp options - td
+  app/views/movies/index.html.erb:40: syntax error, unexpected '<'
+  app/views/movies/index.html.erb:42: syntax error, unexpected '<', expecting ')'
+  app/views/movies/index.html.erb:45: unknown regexp options - td
+  app/views/movies/index.html.erb:46: syntax error, unexpected '<'
+  app/views/movies/index.html.erb:48: unknown regexp options - tbdy
+  app/views/movies/index.html.erb:49: syntax error, unexpected '<'
+  app/views/movies/index.html.erb:53: unterminated regexp meets end of file
+  app/views/movies/index.html.erb:53: syntax error, unexpected end-of-input, expecting ')'
+
+
+  Rendered /home/codio/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.8ms)
+  Rendered /home/codio/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /home/codio/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (9.0ms)
+  Rendered /home/codio/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (36.4ms)
+
+
+Started GET "/" for 2607:f140:6000:d:dcb:8941:ee65:406b at 2022-10-06 04:39:37 +0000
+Cannot render console from 2607:f140:6000:d:dcb:8941:ee65:406b! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  Rendered movies/index.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:23: syntax error, unexpected '<', expecting ')'
+      </th>
+      ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:24: unknown regexp options - th
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:25: syntax error, unexpected '<'
+      <th class="'.freeze;@output_bu...
+      ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:26: syntax error, unexpected tIDENTIFIER, expecting ')'
+...h), :id => 'release_date_header' );@output_buffer.safe_appen...
+...            ^~~~~~~~~~~~~~~~~~~
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:27: syntax error, unexpected '<', expecting ')'
+      </th>
+      ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:28: unknown regexp options - th
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:29: syntax error, unexpected '<'
+    </tr>
+    ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:30: unknown regexp options - thad
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:31: syntax error, unexpected '<'
+  <tbody>
+  ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:34: syntax error, unexpected '<'
+        <td>
+        ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:36: syntax error, unexpected '<', expecting ')'
+        </td>
+        ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:39: unknown regexp options - td
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:40: syntax error, unexpected '<'
+        <td>
+        ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:42: syntax error, unexpected '<', expecting ')'
+        </td>
+        ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:45: unknown regexp options - td
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:46: syntax error, unexpected '<'
+      </tr>
+      ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:48: unknown regexp options - tbdy
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:49: syntax error, unexpected '<'
+</table>
+^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:53: unterminated regexp meets end of file
+          end
+              ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:53: syntax error, unexpected end-of-input, expecting ')'):
+  app/views/movies/index.html.erb:23: syntax error, unexpected '<', expecting ')'
+  app/views/movies/index.html.erb:24: unknown regexp options - th
+  app/views/movies/index.html.erb:25: syntax error, unexpected '<'
+  app/views/movies/index.html.erb:26: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/movies/index.html.erb:27: syntax error, unexpected '<', expecting ')'
+  app/views/movies/index.html.erb:28: unknown regexp options - th
+  app/views/movies/index.html.erb:29: syntax error, unexpected '<'
+  app/views/movies/index.html.erb:30: unknown regexp options - thad
+  app/views/movies/index.html.erb:31: syntax error, unexpected '<'
+  app/views/movies/index.html.erb:34: syntax error, unexpected '<'
+  app/views/movies/index.html.erb:36: syntax error, unexpected '<', expecting ')'
+  app/views/movies/index.html.erb:39: unknown regexp options - td
+  app/views/movies/index.html.erb:40: syntax error, unexpected '<'
+  app/views/movies/index.html.erb:42: syntax error, unexpected '<', expecting ')'
+  app/views/movies/index.html.erb:45: unknown regexp options - td
+  app/views/movies/index.html.erb:46: syntax error, unexpected '<'
+  app/views/movies/index.html.erb:48: unknown regexp options - tbdy
+  app/views/movies/index.html.erb:49: syntax error, unexpected '<'
+  app/views/movies/index.html.erb:53: unterminated regexp meets end of file
+  app/views/movies/index.html.erb:53: syntax error, unexpected end-of-input, expecting ')'
+
+
+  Rendered /home/codio/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.5ms)
+  Rendered /home/codio/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.4ms)
+  Rendered /home/codio/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (9.2ms)
+  Rendered /home/codio/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (39.5ms)
+
+
+Started GET "/" for 2607:f140:6000:d:dcb:8941:ee65:406b at 2022-10-06 04:49:48 +0000
+Cannot render console from 2607:f140:6000:d:dcb:8941:ee65:406b! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Rendered movies/index.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:23: syntax error, unexpected '<', expecting ')'
+      </th>
+      ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:24: unknown regexp options - th
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:25: syntax error, unexpected '<'
+      <th class="'.freeze;@output_bu...
+      ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:26: syntax error, unexpected tIDENTIFIER, expecting ')'
+...h), :id => 'release_date_header' );@output_buffer.safe_appen...
+...            ^~~~~~~~~~~~~~~~~~~
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:27: syntax error, unexpected '<', expecting ')'
+      </th>
+      ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:28: unknown regexp options - th
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:29: syntax error, unexpected '<'
+    </tr>
+    ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:30: unknown regexp options - thad
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:31: syntax error, unexpected '<'
+  <tbody>
+  ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:34: syntax error, unexpected '<'
+        <td>
+        ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:36: syntax error, unexpected '<', expecting ')'
+        </td>
+        ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:39: unknown regexp options - td
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:40: syntax error, unexpected '<'
+        <td>
+        ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:42: syntax error, unexpected '<', expecting ')'
+        </td>
+        ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:45: unknown regexp options - td
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:46: syntax error, unexpected '<'
+      </tr>
+      ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:48: unknown regexp options - tbdy
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:49: syntax error, unexpected '<'
+</table>
+^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:53: unterminated regexp meets end of file
+          end
+              ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:53: syntax error, unexpected end-of-input, expecting ')'):
+  app/views/movies/index.html.erb:23: syntax error, unexpected '<', expecting ')'
+  app/views/movies/index.html.erb:24: unknown regexp options - th
+  app/views/movies/index.html.erb:25: syntax error, unexpected '<'
+  app/views/movies/index.html.erb:26: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/movies/index.html.erb:27: syntax error, unexpected '<', expecting ')'
+  app/views/movies/index.html.erb:28: unknown regexp options - th
+  app/views/movies/index.html.erb:29: syntax error, unexpected '<'
+  app/views/movies/index.html.erb:30: unknown regexp options - thad
+  app/views/movies/index.html.erb:31: syntax error, unexpected '<'
+  app/views/movies/index.html.erb:34: syntax error, unexpected '<'
+  app/views/movies/index.html.erb:36: syntax error, unexpected '<', expecting ')'
+  app/views/movies/index.html.erb:39: unknown regexp options - td
+  app/views/movies/index.html.erb:40: syntax error, unexpected '<'
+  app/views/movies/index.html.erb:42: syntax error, unexpected '<', expecting ')'
+  app/views/movies/index.html.erb:45: unknown regexp options - td
+  app/views/movies/index.html.erb:46: syntax error, unexpected '<'
+  app/views/movies/index.html.erb:48: unknown regexp options - tbdy
+  app/views/movies/index.html.erb:49: syntax error, unexpected '<'
+  app/views/movies/index.html.erb:53: unterminated regexp meets end of file
+  app/views/movies/index.html.erb:53: syntax error, unexpected end-of-input, expecting ')'
+
+
+  Rendered /home/codio/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.7ms)
+  Rendered /home/codio/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /home/codio/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/codio/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (30.1ms)
+
+
+Started GET "/" for 2607:f140:6000:d:dcb:8941:ee65:406b at 2022-10-06 04:53:40 +0000
+Cannot render console from 2607:f140:6000:d:dcb:8941:ee65:406b! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  Rendered movies/index.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:23: syntax error, unexpected '<', expecting ')'
+      </th>
+      ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:24: unknown regexp options - th
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:25: syntax error, unexpected '<'
+      <th class="'.freeze;@output_bu...
+      ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:26: syntax error, unexpected tIDENTIFIER, expecting ')'
+...h), :id => 'release_date_header' );@output_buffer.safe_appen...
+...            ^~~~~~~~~~~~~~~~~~~
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:27: syntax error, unexpected '<', expecting ')'
+      </th>
+      ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:28: unknown regexp options - th
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:29: syntax error, unexpected '<'
+    </tr>
+    ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:30: unknown regexp options - thad
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:31: syntax error, unexpected '<'
+  <tbody>
+  ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:34: syntax error, unexpected '<'
+        <td>
+        ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:36: syntax error, unexpected '<', expecting ')'
+        </td>
+        ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:39: unknown regexp options - td
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:40: syntax error, unexpected '<'
+        <td>
+        ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:42: syntax error, unexpected '<', expecting ')'
+        </td>
+        ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:45: unknown regexp options - td
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:46: syntax error, unexpected '<'
+      </tr>
+      ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:48: unknown regexp options - tbdy
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:49: syntax error, unexpected '<'
+</table>
+^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:53: unterminated regexp meets end of file
+          end
+              ^
+/home/codio/workspace/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:53: syntax error, unexpected end-of-input, expecting ')'):
+  app/views/movies/index.html.erb:23: syntax error, unexpected '<', expecting ')'
+  app/views/movies/index.html.erb:24: unknown regexp options - th
+  app/views/movies/index.html.erb:25: syntax error, unexpected '<'
+  app/views/movies/index.html.erb:26: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/movies/index.html.erb:27: syntax error, unexpected '<', expecting ')'
+  app/views/movies/index.html.erb:28: unknown regexp options - th
+  app/views/movies/index.html.erb:29: syntax error, unexpected '<'
+  app/views/movies/index.html.erb:30: unknown regexp options - thad
+  app/views/movies/index.html.erb:31: syntax error, unexpected '<'
+  app/views/movies/index.html.erb:34: syntax error, unexpected '<'
+  app/views/movies/index.html.erb:36: syntax error, unexpected '<', expecting ')'
+  app/views/movies/index.html.erb:39: unknown regexp options - td
+  app/views/movies/index.html.erb:40: syntax error, unexpected '<'
+  app/views/movies/index.html.erb:42: syntax error, unexpected '<', expecting ')'
+  app/views/movies/index.html.erb:45: unknown regexp options - td
+  app/views/movies/index.html.erb:46: syntax error, unexpected '<'
+  app/views/movies/index.html.erb:48: unknown regexp options - tbdy
+  app/views/movies/index.html.erb:49: syntax error, unexpected '<'
+  app/views/movies/index.html.erb:53: unterminated regexp meets end of file
+  app/views/movies/index.html.erb:53: syntax error, unexpected end-of-input, expecting ')'
+
+
+  Rendered /home/codio/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.5ms)
+  Rendered /home/codio/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /home/codio/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.2ms)
+  Rendered /home/codio/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (33.2ms)
+
+
+Started GET "/" for 2607:f140:6000:d:dcb:8941:ee65:406b at 2022-10-06 05:00:39 +0000
+Cannot render console from 2607:f140:6000:d:dcb:8941:ee65:406b! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (11.5ms)
+  Rendered layouts/_flash.erb (0.5ms)
+Completed 200 OK in 344ms (Views: 341.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-b43f29cafce449379c61fecf74b225790eec36ce211377f53696c83cc9ccb606.css?body=1" for 2607:f140:6000:d:dcb:8941:ee65:406b at 2022-10-06 05:00:40 +0000
+Cannot render console from 2607:f140:6000:d:dcb:8941:ee65:406b! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/movies?sort_by=title" for 2607:f140:6000:d:dcb:8941:ee65:406b at 2022-10-06 05:00:45 +0000
+Cannot render console from 2607:f140:6000:d:dcb:8941:ee65:406b! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sort_by"=>"title"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"  ORDER BY title[0m
+  Rendered movies/index.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/movies?sort_by=release_date" for 2607:f140:6000:d:dcb:8941:ee65:406b at 2022-10-06 05:00:47 +0000
+Cannot render console from 2607:f140:6000:d:dcb:8941:ee65:406b! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sort_by"=>"release_date"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies"  ORDER BY release_date
+  Rendered movies/index.html.erb within layouts/application (9.7ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 44ms (Views: 43.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 2607:f140:6000:d:dcb:8941:ee65:406b at 2022-10-06 05:01:27 +0000
+Cannot render console from 2607:f140:6000:d:dcb:8941:ee65:406b! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (11.5ms)
+  Rendered layouts/_flash.erb (0.6ms)
+Completed 200 OK in 285ms (Views: 282.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/movies?sort_by=title" for 2607:f140:6000:d:dcb:8941:ee65:406b at 2022-10-06 05:01:30 +0000
+Cannot render console from 2607:f140:6000:d:dcb:8941:ee65:406b! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sort_by"=>"title"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"  ORDER BY title[0m
+  Rendered movies/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.3ms)
